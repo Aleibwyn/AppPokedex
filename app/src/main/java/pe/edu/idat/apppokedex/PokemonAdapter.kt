@@ -27,6 +27,7 @@ class PokemonAdapter: RecyclerView.Adapter<PokemonAdapter.ViewHolder>() {
                 Glide.with(holder.itemView)
                     .load("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${position+1}.png")
                     .into(ivPokemon)
+
             }
         }
     }
